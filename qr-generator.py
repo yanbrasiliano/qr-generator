@@ -17,9 +17,9 @@ EN-US: This program has the function of generating QR CODES of the inserted phra
 """
 
 
-from pyqrcode import QRCode
-import png
 
+import pyqrcode
+import png
 
 variable = input('Enter the phrase or link to generate the QR CODE:  ')
 
