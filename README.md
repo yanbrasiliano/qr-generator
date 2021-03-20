@@ -9,6 +9,11 @@
 <p>3. <strong>Install requirements.txt</strong> <br>
 <pre>pip3 install -r requirements.txt</pre></p></p>
 <br>
+<br>
+
+![image](https://user-images.githubusercontent.com/72168914/111859723-b3e53080-8921-11eb-8383-9e7bc9e4f5bd.png)
+
+<br>
 <p>Enjoying the script 🏁</p>
 
 <div align="center">
