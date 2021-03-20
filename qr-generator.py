@@ -19,13 +19,13 @@ EN-US: This program has the function of generating QR CODES of the inserted phra
 
 from pyqrcode import QRCode
 import png
-import pyqrcode
+
 
 variable = input('Enter the phrase or link to generate the QR CODE:  ')
 
-#convert QR CODE
+#Convert to QR CODE
 qr_code = pyqrcode.create(variable)
 
-#save the picture
+#Save the picture
 
 qr_code.png(r'qr.png', scale = 10)
