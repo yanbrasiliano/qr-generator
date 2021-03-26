@@ -24,7 +24,7 @@ import png
 url = input('Enter the phrase or link to generate the QR CODE:  ')
 
 #Convert to QR CODE
-qr_code = pyqrcode.create(variable)
+qr_code = pyqrcode.create(url)
 
 #Save the picture
 
