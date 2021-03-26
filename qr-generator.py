@@ -21,7 +21,7 @@ EN-US: This program has the function of generating QR CODES of the inserted phra
 import pyqrcode
 import png
 
-variable = input('Enter the phrase or link to generate the QR CODE:  ')
+url = input('Enter the phrase or link to generate the QR CODE:  ')
 
 #Convert to QR CODE
 qr_code = pyqrcode.create(variable)
